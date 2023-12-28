@@ -24,17 +24,16 @@ Run the program to determine the number of words in the file created.
 Developed by :narra akhil
 Registered number : 23003406
 '''
+Python program for getting the word count from the contents of a file using command line arguments.
 import sys
-file= open(sys.argv[1])
-data=file.read()
+fp= open(sys.argv[1])
+data=fp.read()
 words=data.split()
 print("Total Words:",len(words))
 ```
 ### OUTPUT:
-
-![image](https://github.com/NARRAAKHIL/command-line-arguments-to-count-word/assets/144979843/fe307bbb-2610-4203-b5fb-d7fe21243e5f)
-![image](https://github.com/NARRAAKHIL/command-line-arguments-to-count-word/assets/144979843/4d1817de-d158-4d88-b4b8-c15beaaabd00)
-![image](https://github.com/NARRAAKHIL/command-line-arguments-to-count-word/assets/144979843/cca36462-b300-48a6-b791-dd8781ad9333)
+![image](https://github.com/NARRAAKHIL/command-line-arguments-to-count-word/assets/144979843/ba0335ee-55f1-4138-8995-faeee12214c6)
+![image](https://github.com/NARRAAKHIL/command-line-arguments-to-count-word/assets/144979843/776b7508-fb0e-4741-80d1-fc76485e9b88)
 
 ## RESULT:
 Thus the program is written to find the word count from the contents of a file using command line arguments.
